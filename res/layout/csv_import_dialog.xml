@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/layout_root" android:orientation="vertical"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:padding="10dp">
+	<EditText android:hint="Enter filename here" android:id="@+id/CsvImport_Filename"
+		android:singleLine="true" android:layout_width="fill_parent"
+		android:layout_height="wrap_content"></EditText>
+	<CheckBox android:text="Uses Commas" android:id="@+id/CsvImport_UsesCommas" android:checked="true"
+ 		android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+ 	<CheckBox android:text="Has Header" android:id="@+id/CsvImport_HasHeader" android:checked="true"
+ 		android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+</LinearLayout>

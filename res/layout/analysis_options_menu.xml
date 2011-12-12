@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/AnalysisOptionsMenu_LastWeekButton" android:title="Last week"/>
+	<item android:id="@+id/AnalysisOptionsMenu_LastMonthButton" android:title="Last month"/>
+	<item android:id="@+id/AnalysisOptionsMenu_LastThreeMonthsButton" android:title="Last 3 months"/>
+	<item android:id="@+id/AnalysisOptionsMenu_LastSixMonthsButton" android:title="Last 6 months"/>
+	<item android:id="@+id/AnalysisOptionsMenu_LastYearButton" android:title="Last year"/>
+	<item android:id="@+id/AnalysisOptionsMenu_AllButton" android:title="All"/>
+</menu>

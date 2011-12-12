@@ -1,0 +1,17 @@
+# don't need this folder
+bin/
+
+# built application files
+*.apk
+*.ap_
+
+#files for dex
+*.dex
+
+#Java class files
+*.class
+
+# generated gui files
+*R.java
+
+.DS_Store

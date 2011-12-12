@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/TrackAnalysisScreen_ScrollView"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<LinearLayout android:id="@+id/TrackAnalysisScreen_Layout" android:orientation="vertical"
+				android:layout_width="fill_parent" android:layout_height="fill_parent">
+		
+		<LinearLayout android:id="@+id/TrackAnalysisScreen_StartLayout" android:weightSum="1.0"
+			android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+			<TextView android:text="FROM:" android:id="@+id/TrackAnalysisScreen_StartLabel" 
+				android:layout_weight="0.1" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textSize="20sp"></TextView>
+			<Button android:text="start time goes here" android:id="@+id/TrackAnalysisScreen_StartTimeButton"
+				android:layout_weight="0.45" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+			<Button android:text="start date goes here" android:id="@+id/TrackAnalysisScreen_StartDateButton"
+				android:layout_weight="0.45" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+		</LinearLayout>
+		
+		<LinearLayout android:id="@+id/TrackAnalysisScreen_EndLayout" android:weightSum="1.0"
+			android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+			<TextView android:text="TO:" android:id="@+id/TrackAnalysisScreen_EndLabel" 
+				android:layout_weight="0.1" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textSize="20sp"></TextView>
+			<Button android:text="end time goes here" android:id="@+id/TrackAnalysisScreen_EndTimeButton"
+				android:layout_weight="0.45" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+			<Button android:text="end date goes here" android:id="@+id/TrackAnalysisScreen_EndDateButton"
+				android:layout_weight="0.45" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+		</LinearLayout>
+		
+		<LinearLayout android:id="@+id/TrackAnalysisScreen_Spacer1"
+			android:layout_width="fill_parent" android:layout_height="8dip"></LinearLayout>
+		
+		<TextView android:text="analysis goes here"
+				android:id="@+id/TrackAnalysisScreen_AnalysisText" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:textSize="16sp"></TextView>
+	</LinearLayout>
+</ScrollView>

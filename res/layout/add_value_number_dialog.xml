@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/layout_root" android:orientation="vertical"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:padding="10dp">
+	<EditText android:hint="Enter value here" android:id="@+id/AddTrackValue_Number_ValueText"
+		android:singleLine="true" android:digits="0123456789."
+		android:inputType="numberDecimal" android:layout_width="fill_parent"
+		android:layout_height="wrap_content"></EditText>
+	<EditText android:hint="Optional note" android:id="@+id/AddTrackValue_Number_NoteText"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"></EditText>
+	<Button android:text="current time goes here" android:id="@+id/AddTrackValue_Number_TimeButton"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"></Button>
+	<Button android:text="current date goes here" android:id="@+id/AddTrackValue_Number_DateButton"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"></Button>
+	<TextView android:id="@+id/AddTrackValue_Number_LastValueText"
+		android:text="last value goes here" android:layout_width="fill_parent"
+		android:layout_height="wrap_content"></TextView>
+</LinearLayout>

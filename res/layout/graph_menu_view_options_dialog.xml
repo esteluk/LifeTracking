@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/layout_root" android:orientation="vertical"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:padding="10dp">
+	<CheckBox android:text="Auto-adjust Y" android:id="@+id/GraphMenu_ViewOptions_AutoAdjustYCheckBox"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"></CheckBox>
+	<CheckBox android:text="Include Y=0.0" android:id="@+id/GraphMenu_ViewOptions_IncludeYZeroCheckBox"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"></CheckBox>
+	<CheckBox android:text="Use % scale" android:id="@+id/GraphMenu_ViewOptions_UsePercentScaleCheckBox"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"></CheckBox>
+	<CheckBox android:text="Big font" android:id="@+id/GraphMenu_ViewOptions_BigFontCheckBox"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"></CheckBox>
+</LinearLayout>

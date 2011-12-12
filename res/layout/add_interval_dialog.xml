@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/AddIntervalDialog_Layout" android:orientation="vertical"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:padding="10dp">
+	<EditText android:hint="Optional note" android:id="@+id/AddIntervalDialog_NoteText"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"></EditText>
+		
+	<TextView android:text="Start" android:id="@+id/AddIntervalDialog_StartLabel"
+			android:gravity="center" android:layout_width="fill_parent"
+			android:layout_height="wrap_content"></TextView>
+	<LinearLayout android:id="@+id/AddIntervalDialog_StartLayout" android:weightSum="1.0"
+		android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<Button android:text="start time goes here" android:id="@+id/AddIntervalDialog_StartTimeButton"
+			android:layout_weight="0.5" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+		<Button android:text="start date goes here" android:id="@+id/AddIntervalDialog_StartDateButton"
+			android:layout_weight="0.5" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+	</LinearLayout>
+		
+	<TextView android:text="End" android:id="@+id/AddIntervalDialog_EndLabel"
+			android:gravity="center" android:layout_width="fill_parent"
+			android:layout_height="wrap_content"></TextView>
+	<LinearLayout android:id="@+id/AddIntervalDialog_EndLayout" android:weightSum="1.0"
+		android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<Button android:text="end time goes here" android:id="@+id/AddIntervalDialog_EndTimeButton"
+			android:layout_weight="0.5" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+		<Button android:text="end date goes here" android:id="@+id/AddIntervalDialog_EndDateButton"
+			android:layout_weight="0.5" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+	</LinearLayout>
+	<TextView android:id="@+id/AddIntervalDialog_LastValueText"
+		android:text="last value goes here" android:layout_width="fill_parent"
+		android:layout_height="wrap_content"></TextView>
+</LinearLayout>

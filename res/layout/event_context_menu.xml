@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/EventContextMenu_AnalyzeButton" android:title="Analyze"/>
+	<item android:id="@+id/EventContextMenu_UndoLastButton" android:title="Undo Last Value"/>
+	<item android:id="@+id/EventContextMenu_RenameButton" android:title="Rename"/>
+	<item android:id="@+id/EventContextMenu_ExportCsvButton" android:title="Export as CSV"/>
+    <item android:id="@+id/EventContextMenu_DeleteButton" android:title="Delete"/>
+</menu>

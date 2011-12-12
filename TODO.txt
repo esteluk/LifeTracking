@@ -1,0 +1,38 @@
+http://www.reddit.com/r/androiddev/comments/gq2k4/i_would_not_get_your_app_because/c1pfz5z
+
+For the love of god, please store your files in the recommend directory on external storage. <externaldir>/Android/data/<package_name>/files/ Read the section titled, Accessing files on external storage (developer.android.com)
+
+Pinch zoom should be reversed.
+Add a table view for all data.
+Change top icons (they shouldn't be graphs).
+Add a button for each entry to graph that entry.
+Stack vertically intervals/events.
+Help file.
+
+Bug in graph display: I've got data points before Christmas and after New Year, but none between those two. When graph is zoomed into that period with no points inside, there is no edge connecting last point on the left and first on the right.
+
+L10N bug in data entry: comma is not accepted as decimal mark.
+remember what tab was open last
+when ending an interval, show how much time passed
+
+ANALYSIS:
+Pie charts for total time spent. (More graphical ways to see the data!)
+For intervals, do bar graphs, where each bar represents one unit of best-fit measurement.
+
+FEATURES:
+No such thing as not enough values to draw.
+Bug/Comment/Request submission form right in the app.
+Add Help button (Add help/how-to section.) in Main Screen's context menu. (Mention this in welcome)
+Add drawing various things with the graph (smoothed graph, average, etc)
+Options: show time since started tracking?
+Have a list of commonly used Events.
+Have tags you can apply to values (so you can filter by them).
+When graphing more than one graph, interleave the y-axis labels
+Export/Import CSV
+Interval timer (app asks you to update itself every so often).
+Desktop widget.
+
+TRACK TYPES:
+Template/custom set of values (just add as many as you want)
+Mood (ordinal values!) (with images)
+Two numbers (blood pressure, other things)

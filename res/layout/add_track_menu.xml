@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:id="@+id/AddTrack_Layout"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical">
+	<TextView android:text="Name" android:id="@+id/AddTrack_NameLabel"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"></TextView>
+	<EditText android:hint="enter name here" android:id="@+id/AddTrack_Name" android:singleLine="true"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"></EditText>
+	<!-- <TextView android:text="Type" android:id="@+id/AddTrack_TypeLabel"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"></TextView>
+	<Spinner android:id="@+id/AddTrack_Type" android:layout_width="fill_parent"
+		android:layout_height="wrap_content"></Spinner> -->
+	<TextView android:text=" " android:id="@+id/AddTrack_Spacer0"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+
+	<LinearLayout android:id="@+id/AddTrack_ButtonsLayout"
+		android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="1.0">
+		<Button android:text="Done" android:id="@+id/AddTrack_Done" android:layout_weight="1.0" 
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+		<Button android:text="Cancel" android:id="@+id/AddTrack_Cancel" android:layout_weight="0.0" 
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/WelcomeScreen_ScrollView"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<LinearLayout android:id="@+id/WelcomeScreen_Layout" android:orientation="vertical"
+				android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<TextView android:text="Welcome to LifeTracking!"
+				android:id="@+id/WelcomeScreen_WelcomeTitleText" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:textSize="16sp"></TextView>
+		<TextView android:text="\nWith LifeTracking you can track all important aspects of your life.\n * &quot;Intervals&quot; help you track when you start and stop various activities like sleeping or working.\n * &quot;Events&quot; just record the time when something happened.\n * &quot;Tracks&quot; help you track various values like weight or number of push-ups a day."
+				android:id="@+id/WelcomeScreen_WelcomeText" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:textSize="14sp"></TextView>
+		<TextView android:text="You can long-click many buttons to access more options.\nIf you check the box below, the program will be ready to record commonly tracked data like: sleep, work, entertainment, and weight."
+				android:id="@+id/WelcomeScreen_CommonTracksText" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:textSize="14sp"></TextView>
+		<CheckBox android:text="Add common tracks" android:id="@+id/WelcomeScreen_AddCommonTracksCheckBox"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"></CheckBox>
+		<TextView android:text="" android:id="@+id/WelcomeScreen_MoreWelcomeText" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:textSize="14sp"></TextView>
+		
+		<CheckBox android:text="Do not show this again" android:id="@+id/WelcomeScreen_DoNotShowAgainCheckBox"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"></CheckBox>
+		<Button android:text="Continue" android:id="@+id/WelcomeScreen_ContinueButton"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"></Button>
+	</LinearLayout>
+</ScrollView>

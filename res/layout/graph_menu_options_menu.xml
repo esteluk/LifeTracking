@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	
+	<item android:id="@+id/GraphMenu_Options_Tracks" android:icon="@drawable/add" android:title="Tracks"/>
+	<item android:id="@+id/GraphMenu_Options_Intervals" android:icon="@drawable/add" android:title="Intervals"/>
+	<item android:id="@+id/GraphMenu_Options_Events" android:icon="@drawable/add" android:title="Events"/>
+	<item android:id="@+id/GraphMenu_Options_Selection" android:icon="@drawable/edit_point" android:title="Selection"/>
+	<item android:id="@+id/GraphMenu_Options_ViewOptions" android:icon="@drawable/options" android:title="View Options"/>
+    <item android:id="@+id/GraphMenu_Options_StartEndDates" android:icon="@drawable/start_end_date" android:title="Start/End Dates"/>
+</menu>

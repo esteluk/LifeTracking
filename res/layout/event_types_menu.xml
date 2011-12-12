@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/EventTypesMenu_ScrollView" android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+	<LinearLayout android:id="@+id/EventTypesMenu_Layout" android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<LinearLayout android:id="@+id/EventTypesMenu_EventsLayout"
+			android:orientation="vertical" android:layout_width="fill_parent"
+			android:layout_height="wrap_content"></LinearLayout>
+		<LinearLayout android:id="@+id/EventTypesMenu_Spacer2"
+			android:layout_width="fill_parent" android:layout_height="8dip"></LinearLayout>
+		<Button android:text="Add New Event Type..." android:id="@+id/EventTypesMenu_AddNewEventTypeButton"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:textStyle="italic"></Button>
+	</LinearLayout>
+</ScrollView>
