@@ -12,12 +12,11 @@ the application to analyze it.
 
 Attribution
 ===========
-Original author STOpandthink [open sourced][reddit] this application on
+Original author STOpandthink [open sourced](http://www.reddit.com/r/androiddev/comments/n9dhm/a_good_application_is_seeking_a_new_developer/) this application on
 2011-12-12. 
-	[reddit]: http://www.reddit.com/r/androiddev/comments/n9dhm/a_good_application_is_seeking_a_new_developer/
+
 
 Market Link
 ===========
-[Android Market][market].
-	[market]: https://market.android.com/details?q=com.lifetracking
+[Android Market](https://market.android.com/details?q=com.lifetracking).
 
